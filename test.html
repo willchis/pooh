@@ -1,0 +1,21 @@
+<html>
+<div id="image">
+</div>
+<div id="text">
+
+</div>
+<script>
+	var imageName = 'pooh' + Math.floor(Math.random(113) * 100) + '.jpg';
+	var imageDom = document.getElementById('image');
+
+	imageDom.style.backgroundImage = `url(${imageName})`
+</script>
+<style>
+	#image {
+		height: 100%;
+	    width: 100%;
+	    background: url(pooh16.jpg) no-repeat center;
+	    background-size: contain;
+	}
+</style>
+</html>
